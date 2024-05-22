@@ -12,7 +12,7 @@ export default function HeroSection() {
         <h1 className={cn("text-2xl md:text-4xl font-medium", barlow.className)}>Ciao, Io sono Kyi Min.</h1>
         <h6 className={cn("opacity-70", barlow.className)}>A <span>full-stack React</span> developer based in Pavia, Italy.</h6>
 
-        <p className="text-base md:text-lg my-8">I build web app that are practical and reliance.</p>
+        <p className="text-base md:text-lg my-8">I build web app that are practical and reliable.</p>
 
         <div className="flex gap-4 mb-4 pl-2 justify-start items-center">
           {contactsConstant.map(contact => (
