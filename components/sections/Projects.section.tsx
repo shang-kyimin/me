@@ -10,7 +10,7 @@ export default function ProjectsSection() {
         <h3>Projects</h3>
 
         <div className="flex flex-col md:flex-row gap-4 mt-4">
-          <Link href="https://url-up.netlify.app">
+          <Link href="https://url-up.netlify.app" target="_blank">
             <Image
               src="/images/url-up-homepage.image.png"
               width={927}
