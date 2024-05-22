@@ -12,7 +12,7 @@ export default function ContactSection() {
 
         <div className="flex gap-6 justify-center items-center">
           {contactsConstant.map(contact => (
-            <Link href={contact.href} className="transition hover:scale-110" target="_blank">
+            <Link href={contact.href} className="transition hover:scale-110" target="_blank" key={contact.name}>
               <Image
                 src={contact.src}
                 width={26}

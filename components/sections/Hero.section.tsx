@@ -16,7 +16,7 @@ export default function HeroSection() {
 
         <div className="flex gap-4 mb-4 pl-2 justify-start items-center">
           {contactsConstant.map(contact => (
-            <Link href={contact.href} className="transition hover:scale-110" target="_blank">
+            <Link href={contact.href} className="transition hover:scale-110" target="_blank" key={contact.name}>
               <Image
                 src={contact.src}
                 width={26}

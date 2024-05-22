@@ -20,6 +20,7 @@ export default function AboutMeSection() {
           <div className="py-2 flex gap-4 flex-wrap justify-center items-center">
             {techstacksConstant.map(tech => (
               <Image
+                key={tech.name}
                 src={tech.src}
                 width={28}
                 height={28}
